@@ -1,0 +1,4 @@
+cc_binary(
+    name = "bin",
+    srcs = ["source_name with_space.cpp"],
+)
