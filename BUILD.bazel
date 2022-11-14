@@ -2,3 +2,9 @@ cc_binary(
     name = "bin",
     srcs = ["source_name with_space.cpp"],
 )
+
+#cc_binary(
+#    name = "bin",
+#    local_defines = ["LOCALDEFINE=\"helloworld\""],
+#    srcs = ["source_name.cpp"],
+#)
